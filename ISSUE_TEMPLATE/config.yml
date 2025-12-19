@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/OWNER/REPO/wiki
+    about: Önce dokümantasyonu kontrol edin
+  - name: 💬 Discussions
+    url: https://github.com/OWNER/REPO/discussions
+    about: Sorular ve genel tartışmalar için
+  - name: 🔒 Security Vulnerability
+    url: https://github.com/OWNER/REPO/security/policy
+    about: Kritik güvenlik açıkları için responsible disclosure

@@ -1,52 +1,89 @@
-name: "🐞 Bug Report"
+---
+name: "🐛 Bug Report"
+about: "Hata bildirimi"
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+assignees: ''
+---
 
-description: Bir hata tespit ettiysen buradan bildirebilirsin.
+## Bug Özeti
 
-title: "\[BUG] "
-
-labels: \["bug"]
-
-body:
-
-&nbsp; - type: textarea
-
-&nbsp;   id: description
-
-&nbsp;   attributes:
-
-&nbsp;     label: Sorunun Açıklaması
-
-&nbsp;     description: Ne oldu, nasıl oldu?
-
-&nbsp;   validations:
-
-&nbsp;     required: true
-
-&nbsp; - type: textarea
-
-&nbsp;   id: steps
-
-&nbsp;   attributes:
-
-&nbsp;     label: Adım Adım Tekrar Etme
-
-&nbsp;     description: Hatanın oluştuğu adımları yaz.
-
-&nbsp; - type: textarea
-
-&nbsp;   id: expected
-
-&nbsp;   attributes:
-
-&nbsp;     label: Beklenen Davranış
-
-&nbsp; - type: textarea
-
-&nbsp;   id: context
-
-&nbsp;   attributes:
-
-&nbsp;     label: Ek Bilgi
+<!-- Hatayı tek cümlede özetleyin -->
 
 
 
+## Yeniden Üretme Adımları
+
+1. 
+2. 
+3. 
+4. 
+
+## Beklenen Davranış
+
+<!-- Ne olması gerekiyordu? -->
+
+
+
+## Gerçekleşen Davranış
+
+<!-- Ne oldu? -->
+
+
+
+## Ortam
+
+| Alan | Değer |
+|------|-------|
+| OS | |
+| Browser/Runtime | |
+| Version | |
+| Commit/Tag | |
+
+## Ekran Görüntüsü / Log
+
+<!-- Varsa ekleyin -->
+
+```
+// Hata logu veya stack trace
+```
+
+## Etki Analizi
+
+| Seviye | Değer |
+|--------|-------|
+| Etkilenen kullanıcı sayısı | |
+| Workaround var mı? | Evet / Hayır |
+| Data loss riski | Evet / Hayır |
+| Güvenlik riski | Evet / Hayır |
+
+## Olası Sebep
+
+<!-- Tahmininiz varsa -->
+
+
+
+## Önerilen Çözüm
+
+<!-- Fikriniz varsa -->
+
+
+
+---
+
+## Meta
+
+**Priority:** <!-- P0 / P1 / P2 / P3 -->
+**Milestone:** 
+**First seen:** <!-- Ne zaman fark edildi -->
+**Regression:** <!-- Evet / Hayır / Bilinmiyor -->
+
+---
+
+<!--
+Checklist:
+- [ ] Yeniden üretilebilir adımlar yazıldı
+- [ ] Ortam bilgisi eklendi
+- [ ] Etki analizi yapıldı
+- [ ] Log/screenshot eklendi (varsa)
+-->

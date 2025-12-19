@@ -1,0 +1,38 @@
+# CODEOWNERS
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything
+*                       @OWNER
+
+# Security-sensitive files require security review
+SECURITY.md             @OWNER @security-team
+/.github/               @OWNER
+
+# Documentation
+/docs/                  @OWNER
+*.md                    @OWNER
+
+# Core configuration
+package.json            @OWNER
+composer.json           @OWNER
+*.config.js             @OWNER
+*.config.ts             @OWNER
+
+# ADR requires architectural review
+/docs/adr/              @OWNER @architecture-team
+
+# Database & migrations
+/migrations/            @OWNER @database-team
+/database/              @OWNER @database-team
+
+# API definitions
+/api/                   @OWNER @api-team
+openapi.yaml            @OWNER @api-team
+swagger.json            @OWNER @api-team
+
+# Infrastructure
+/infrastructure/        @OWNER @devops-team
+/terraform/             @OWNER @devops-team
+/.github/workflows/     @OWNER @devops-team
+Dockerfile              @OWNER @devops-team
+docker-compose*.yml     @OWNER @devops-team
